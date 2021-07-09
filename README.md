@@ -115,9 +115,13 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
 1. What are the main differences between a stateful and a functional component?
+  ANSWER: Stateful components implement logic & state and functional components don't. Functional components actually don't use state because they simply just accept data & then display them.
 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
+  ANSWER: componentWillMount function is called before the render method is executed. componentWillUpdate is called right before the component renders.
 
 3. Define stateful logic.
+  ANSWER: Stateful logic is logic that is built into a component. It deals with the state in the component.
 
 4. What are the three step of creating a successful test? What is done in each phase?
+  ANSWER: Arrange, act, & assert. Arrange is setting up the react component that is being tested. Act is executing the behavior (if there is one) and extract what is being tested. Assert is checking to see if we got the response that is being expected.
